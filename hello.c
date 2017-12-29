@@ -1,3 +1,5 @@
+/* Hello World Program*/
+
 #include <stdint.h>
 #include <stdio.h>
 #include "stm32f3xx_hal.h"
@@ -5,7 +7,8 @@
 
 void CmdHello(int mode)
 {
-  if(mode != CMD_INTERACTIVE) {
+  if(mode != CMD_INTERACTIVE) 
+  {
     return;
   }
 
